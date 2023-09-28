@@ -1,0 +1,15 @@
+.add-button {
+  width: 150px;
+  margin: auto;
+  height: 50px;
+  background-color: lightgreen;
+  border: 0;
+  border-radius: 3rem;
+  bottom: 25px;
+  position: relative;
+}
+
+.add-button:hover {
+  background-color: green;
+  cursor: pointer;
+}

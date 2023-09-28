@@ -1,0 +1,17 @@
+.input-text {
+  width: min(80% - 1rem, 450px);
+  height: 30px;
+  margin: auto;
+}
+
+.input-form {
+  display: flex;
+}
+
+.empty-button {
+  width: 0;
+  height: 0;
+  background-color: transparent;
+  border: 0;
+  position: absolute;
+}
