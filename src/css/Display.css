@@ -1,0 +1,26 @@
+.list-display,
+.list-display-done {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 18px;
+}
+
+.list-item-done {
+  text-decoration: line-through;
+  padding: 5px;
+}
+.list-item-done::marker{
+  content: "✅";
+}
+
+.list-item{
+  cursor: pointer;
+  padding: 5px;
+}
+
+.list-item::marker {
+  content: "🔸";
+}
+
+.list-item:hover::marker {
+  content: "✅";
+}
